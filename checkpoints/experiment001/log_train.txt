@@ -1,0 +1,340 @@
+Saving to ../checkpoints/experiment001/ ...
+TRAINING : START
+TRAIN: n=20803
+VALID: n=2312
+Found 4,584 annotations with bounding boxes ...
+Found 16,219 annotations without bounding boxes ...
+Building [RetinaNet50] architecture ...
+epoch 00, batch 100/573: loss=1.5574 loss_cls=1.0722 loss_bbox=0.4852 (data: 0.026s/batch, step: 0.686s/batch, lr: 5.9e-06)
+epoch 00, batch 200/573: loss=1.3487 loss_cls=0.8853 loss_bbox=0.4633 (data: 0.011s/batch, step: 0.528s/batch, lr: 7.7e-06)
+epoch 00, batch 300/573: loss=1.2534 loss_cls=0.8009 loss_bbox=0.4525 (data: 0.011s/batch, step: 0.528s/batch, lr: 9.6e-06)
+epoch 00, batch 400/573: loss=1.1997 loss_cls=0.7563 loss_bbox=0.4433 (data: 0.011s/batch, step: 0.529s/batch, lr: 1.1e-05)
+epoch 00, batch 500/573: loss=1.1643 loss_cls=0.7280 loss_bbox=0.4363 (data: 0.011s/batch, step: 0.530s/batch, lr: 1.3e-05)
+epoch 01, batch 100/573: loss=1.1189 loss_cls=0.6918 loss_bbox=0.4272 (data: 0.027s/batch, step: 0.531s/batch, lr: 1.7e-05)
+epoch 01, batch 200/573: loss=1.0981 loss_cls=0.6771 loss_bbox=0.4211 (data: 0.011s/batch, step: 0.529s/batch, lr: 1.8e-05)
+epoch 01, batch 300/573: loss=1.0827 loss_cls=0.6656 loss_bbox=0.4171 (data: 0.011s/batch, step: 0.529s/batch, lr: 2.0e-05)
+epoch 01, batch 400/573: loss=1.0674 loss_cls=0.6548 loss_bbox=0.4126 (data: 0.011s/batch, step: 0.530s/batch, lr: 2.2e-05)
+epoch 01, batch 500/573: loss=1.0151 loss_cls=0.6123 loss_bbox=0.4027 (data: 0.020s/batch, step: 0.532s/batch, lr: 2.4e-05)
+VALIDATING ...
+overall_map        | 0.097949
+overall_thr        | 0.45
+pos_overall_map    | 0.25678
+pos_overall_thr    | 0.35
+overall_map_40     | 0.19431
+overall_thr_40     | 0.4
+pos_overall_map_40 | 0.52485
+pos_overall_thr_40 | 0.35
+class1_auc         | 0.78127
+overall_auc        | 0.78127
+Validation took 0:04:06.331539 !
+epoch 02, batch 100/573: loss=0.9724 loss_cls=0.5833 loss_bbox=0.3891 (data: 0.024s/batch, step: 0.520s/batch, lr: 2.7e-05)
+epoch 02, batch 200/573: loss=0.9617 loss_cls=0.5770 loss_bbox=0.3847 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.9e-05)
+epoch 02, batch 300/573: loss=0.9475 loss_cls=0.5695 loss_bbox=0.3780 (data: 0.010s/batch, step: 0.522s/batch, lr: 3.1e-05)
+epoch 02, batch 400/573: loss=0.9405 loss_cls=0.5657 loss_bbox=0.3748 (data: 0.010s/batch, step: 0.523s/batch, lr: 3.3e-05)
+epoch 02, batch 500/573: loss=0.9308 loss_cls=0.5608 loss_bbox=0.3700 (data: 0.010s/batch, step: 0.524s/batch, lr: 3.5e-05)
+epoch 03, batch 100/573: loss=0.9207 loss_cls=0.5538 loss_bbox=0.3669 (data: 0.021s/batch, step: 0.524s/batch, lr: 3.8e-05)
+epoch 03, batch 200/573: loss=0.9153 loss_cls=0.5514 loss_bbox=0.3639 (data: 0.010s/batch, step: 0.524s/batch, lr: 4.0e-05)
+epoch 03, batch 300/573: loss=0.9110 loss_cls=0.5492 loss_bbox=0.3618 (data: 0.010s/batch, step: 0.523s/batch, lr: 4.2e-05)
+epoch 03, batch 400/573: loss=0.9072 loss_cls=0.5471 loss_bbox=0.3601 (data: 0.010s/batch, step: 0.524s/batch, lr: 4.3e-05)
+epoch 03, batch 500/573: loss=0.9036 loss_cls=0.5442 loss_bbox=0.3594 (data: 0.010s/batch, step: 0.523s/batch, lr: 4.5e-05)
+VALIDATING ...
+overall_map        | 0.1849
+overall_thr        | 0.4
+pos_overall_map    | 0.32854
+pos_overall_thr    | 0.25
+overall_map_40     | 0.29419
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.55354
+pos_overall_thr_40 | 0.2
+class1_auc         | 0.85761
+overall_auc        | 0.85761
+Validation took 0:04:28.392326 !
+epoch 04, batch 100/573: loss=0.8992 loss_cls=0.5424 loss_bbox=0.3568 (data: 0.022s/batch, step: 0.520s/batch, lr: 4.9e-05)
+epoch 04, batch 200/573: loss=0.8961 loss_cls=0.5397 loss_bbox=0.3564 (data: 0.010s/batch, step: 0.521s/batch, lr: 5.0e-05)
+epoch 04, batch 300/573: loss=0.8948 loss_cls=0.5377 loss_bbox=0.3571 (data: 0.010s/batch, step: 0.523s/batch, lr: 5.2e-05)
+epoch 04, batch 400/573: loss=0.8923 loss_cls=0.5369 loss_bbox=0.3553 (data: 0.010s/batch, step: 0.523s/batch, lr: 5.4e-05)
+epoch 04, batch 500/573: loss=0.8907 loss_cls=0.5356 loss_bbox=0.3551 (data: 0.010s/batch, step: 0.524s/batch, lr: 5.6e-05)
+epoch 05, batch 100/573: loss=0.8879 loss_cls=0.5339 loss_bbox=0.3540 (data: 0.021s/batch, step: 0.523s/batch, lr: 5.9e-05)
+epoch 05, batch 200/573: loss=0.8859 loss_cls=0.5323 loss_bbox=0.3536 (data: 0.010s/batch, step: 0.523s/batch, lr: 6.1e-05)
+epoch 05, batch 300/573: loss=0.8840 loss_cls=0.5314 loss_bbox=0.3526 (data: 0.010s/batch, step: 0.523s/batch, lr: 6.3e-05)
+epoch 05, batch 400/573: loss=0.8831 loss_cls=0.5313 loss_bbox=0.3519 (data: 0.010s/batch, step: 0.523s/batch, lr: 6.5e-05)
+epoch 05, batch 500/573: loss=0.8818 loss_cls=0.5300 loss_bbox=0.3518 (data: 0.010s/batch, step: 0.523s/batch, lr: 6.7e-05)
+VALIDATING ...
+overall_map        | 0.14087
+overall_thr        | 0.35
+pos_overall_map    | 0.30217
+pos_overall_thr    | 0.25
+overall_map_40     | 0.24434
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.55881
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.84352
+overall_auc        | 0.84352
+Validation took 0:03:13.816389 !
+epoch 06, batch 100/573: loss=0.8765 loss_cls=0.5266 loss_bbox=0.3499 (data: 0.024s/batch, step: 0.520s/batch, lr: 7.0e-05)
+epoch 06, batch 200/573: loss=0.8759 loss_cls=0.5258 loss_bbox=0.3502 (data: 0.010s/batch, step: 0.522s/batch, lr: 7.2e-05)
+epoch 06, batch 300/573: loss=0.8752 loss_cls=0.5262 loss_bbox=0.3490 (data: 0.010s/batch, step: 0.522s/batch, lr: 7.4e-05)
+epoch 06, batch 400/573: loss=0.8727 loss_cls=0.5250 loss_bbox=0.3477 (data: 0.010s/batch, step: 0.523s/batch, lr: 7.5e-05)
+epoch 06, batch 500/573: loss=0.8743 loss_cls=0.5255 loss_bbox=0.3488 (data: 0.010s/batch, step: 0.523s/batch, lr: 7.7e-05)
+epoch 07, batch 100/573: loss=0.8712 loss_cls=0.5239 loss_bbox=0.3473 (data: 0.024s/batch, step: 0.522s/batch, lr: 8.1e-05)
+epoch 07, batch 200/573: loss=0.8719 loss_cls=0.5238 loss_bbox=0.3482 (data: 0.010s/batch, step: 0.523s/batch, lr: 8.2e-05)
+epoch 07, batch 300/573: loss=0.8689 loss_cls=0.5210 loss_bbox=0.3479 (data: 0.010s/batch, step: 0.523s/batch, lr: 8.4e-05)
+epoch 07, batch 400/573: loss=0.8669 loss_cls=0.5200 loss_bbox=0.3469 (data: 0.010s/batch, step: 0.523s/batch, lr: 8.6e-05)
+epoch 07, batch 500/573: loss=0.8684 loss_cls=0.5213 loss_bbox=0.3472 (data: 0.010s/batch, step: 0.523s/batch, lr: 8.8e-05)
+VALIDATING ...
+overall_map        | 0.18097
+overall_thr        | 0.4
+pos_overall_map    | 0.31166
+pos_overall_thr    | 0.35
+overall_map_40     | 0.3019
+overall_thr_40     | 0.4
+pos_overall_map_40 | 0.5294
+pos_overall_thr_40 | 0.35
+class1_auc         | 0.86559
+overall_auc        | 0.86559
+Validation took 0:03:04.539631 !
+epoch 08, batch 100/573: loss=0.8677 loss_cls=0.5212 loss_bbox=0.3465 (data: 0.027s/batch, step: 0.519s/batch, lr: 9.1e-05)
+epoch 08, batch 200/573: loss=0.8676 loss_cls=0.5205 loss_bbox=0.3471 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.3e-05)
+epoch 08, batch 300/573: loss=0.8667 loss_cls=0.5199 loss_bbox=0.3468 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.5e-05)
+epoch 08, batch 400/573: loss=0.8663 loss_cls=0.5207 loss_bbox=0.3456 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.7e-05)
+epoch 08, batch 500/573: loss=0.8636 loss_cls=0.5188 loss_bbox=0.3449 (data: 0.010s/batch, step: 0.523s/batch, lr: 9.9e-05)
+epoch 09, batch 100/573: loss=0.8615 loss_cls=0.5169 loss_bbox=0.3446 (data: 0.021s/batch, step: 0.522s/batch, lr: 1.0e-04)
+epoch 09, batch 200/573: loss=0.8628 loss_cls=0.5178 loss_bbox=0.3450 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.0e-04)
+epoch 09, batch 300/573: loss=0.8624 loss_cls=0.5172 loss_bbox=0.3451 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.0e-04)
+epoch 09, batch 400/573: loss=0.8594 loss_cls=0.5155 loss_bbox=0.3440 (data: 0.010s/batch, step: 0.521s/batch, lr: 1.0e-04)
+epoch 09, batch 500/573: loss=0.8583 loss_cls=0.5152 loss_bbox=0.3431 (data: 0.010s/batch, step: 0.521s/batch, lr: 1.0e-04)
+VALIDATING ...
+overall_map        | 0.1743
+overall_thr        | 0.4
+pos_overall_map    | 0.3665
+pos_overall_thr    | 0.3
+overall_map_40     | 0.26921
+overall_thr_40     | 0.4
+pos_overall_map_40 | 0.5947
+pos_overall_thr_40 | 0.3
+class1_auc         | 0.84837
+overall_auc        | 0.84837
+Validation took 0:02:59.929466 !
+epoch 10, batch 100/573: loss=0.8567 loss_cls=0.5138 loss_bbox=0.3429 (data: 0.023s/batch, step: 0.519s/batch, lr: 9.9e-05)
+epoch 10, batch 200/573: loss=0.8576 loss_cls=0.5139 loss_bbox=0.3437 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.9e-05)
+epoch 10, batch 300/573: loss=0.8565 loss_cls=0.5125 loss_bbox=0.3440 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.9e-05)
+epoch 10, batch 400/573: loss=0.8584 loss_cls=0.5135 loss_bbox=0.3448 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.8e-05)
+epoch 10, batch 500/573: loss=0.8570 loss_cls=0.5136 loss_bbox=0.3433 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.8e-05)
+epoch 11, batch 100/573: loss=0.8515 loss_cls=0.5108 loss_bbox=0.3407 (data: 0.021s/batch, step: 0.522s/batch, lr: 9.7e-05)
+epoch 11, batch 200/573: loss=0.8521 loss_cls=0.5102 loss_bbox=0.3418 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.7e-05)
+epoch 11, batch 300/573: loss=0.8528 loss_cls=0.5100 loss_bbox=0.3428 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.6e-05)
+epoch 11, batch 400/573: loss=0.8501 loss_cls=0.5092 loss_bbox=0.3409 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.6e-05)
+epoch 11, batch 500/573: loss=0.8484 loss_cls=0.5079 loss_bbox=0.3405 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.5e-05)
+VALIDATING ...
+overall_map        | 0.18923
+overall_thr        | 0.5
+pos_overall_map    | 0.35147
+pos_overall_thr    | 0.35
+overall_map_40     | 0.30374
+overall_thr_40     | 0.45
+pos_overall_map_40 | 0.59044
+pos_overall_thr_40 | 0.35
+class1_auc         | 0.86925
+overall_auc        | 0.86925
+Validation took 0:03:02.850577 !
+epoch 12, batch 100/573: loss=0.8422 loss_cls=0.5052 loss_bbox=0.3370 (data: 0.023s/batch, step: 0.519s/batch, lr: 9.4e-05)
+epoch 12, batch 200/573: loss=0.8398 loss_cls=0.5042 loss_bbox=0.3356 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.4e-05)
+epoch 12, batch 300/573: loss=0.8385 loss_cls=0.5029 loss_bbox=0.3356 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.3e-05)
+epoch 12, batch 400/573: loss=0.8372 loss_cls=0.5018 loss_bbox=0.3354 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.3e-05)
+epoch 12, batch 500/573: loss=0.8350 loss_cls=0.5004 loss_bbox=0.3346 (data: 0.010s/batch, step: 0.521s/batch, lr: 9.2e-05)
+epoch 13, batch 100/573: loss=0.8302 loss_cls=0.4984 loss_bbox=0.3318 (data: 0.022s/batch, step: 0.522s/batch, lr: 9.1e-05)
+epoch 13, batch 200/573: loss=0.8277 loss_cls=0.4965 loss_bbox=0.3312 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.0e-05)
+epoch 13, batch 300/573: loss=0.8277 loss_cls=0.4956 loss_bbox=0.3321 (data: 0.010s/batch, step: 0.522s/batch, lr: 8.9e-05)
+epoch 13, batch 400/573: loss=0.8281 loss_cls=0.4957 loss_bbox=0.3324 (data: 0.010s/batch, step: 0.522s/batch, lr: 8.8e-05)
+epoch 13, batch 500/573: loss=0.8275 loss_cls=0.4949 loss_bbox=0.3326 (data: 0.010s/batch, step: 0.522s/batch, lr: 8.7e-05)
+VALIDATING ...
+overall_map        | 0.18886
+overall_thr        | 0.3
+pos_overall_map    | 0.32861
+pos_overall_thr    | 0.2
+overall_map_40     | 0.29404
+overall_thr_40     | 0.3
+pos_overall_map_40 | 0.53196
+pos_overall_thr_40 | 0.2
+class1_auc         | 0.8759
+overall_auc        | 0.8759
+Validation took 0:03:00.266529 !
+epoch 14, batch 100/573: loss=0.8250 loss_cls=0.4934 loss_bbox=0.3316 (data: 0.023s/batch, step: 0.519s/batch, lr: 8.6e-05)
+epoch 14, batch 200/573: loss=0.8210 loss_cls=0.4908 loss_bbox=0.3302 (data: 0.010s/batch, step: 0.521s/batch, lr: 8.5e-05)
+epoch 14, batch 300/573: loss=0.8203 loss_cls=0.4898 loss_bbox=0.3305 (data: 0.010s/batch, step: 0.522s/batch, lr: 8.4e-05)
+epoch 14, batch 400/573: loss=0.8207 loss_cls=0.4911 loss_bbox=0.3297 (data: 0.010s/batch, step: 0.522s/batch, lr: 8.3e-05)
+epoch 14, batch 500/573: loss=0.8192 loss_cls=0.4904 loss_bbox=0.3288 (data: 0.010s/batch, step: 0.522s/batch, lr: 8.2e-05)
+epoch 15, batch 100/573: loss=0.8166 loss_cls=0.4899 loss_bbox=0.3267 (data: 0.021s/batch, step: 0.522s/batch, lr: 8.0e-05)
+epoch 15, batch 200/573: loss=0.8141 loss_cls=0.4885 loss_bbox=0.3256 (data: 0.010s/batch, step: 0.521s/batch, lr: 7.9e-05)
+epoch 15, batch 300/573: loss=0.8121 loss_cls=0.4875 loss_bbox=0.3246 (data: 0.010s/batch, step: 0.521s/batch, lr: 7.8e-05)
+epoch 15, batch 400/573: loss=0.8102 loss_cls=0.4860 loss_bbox=0.3243 (data: 0.010s/batch, step: 0.522s/batch, lr: 7.7e-05)
+epoch 15, batch 500/573: loss=0.8107 loss_cls=0.4866 loss_bbox=0.3242 (data: 0.010s/batch, step: 0.521s/batch, lr: 7.6e-05)
+VALIDATING ...
+overall_map        | 0.19973
+overall_thr        | 0.35
+pos_overall_map    | 0.38996
+pos_overall_thr    | 0.25
+overall_map_40     | 0.30278
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.6167
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.87488
+overall_auc        | 0.87488
+Validation took 0:03:02.728689 !
+epoch 16, batch 100/573: loss=0.8136 loss_cls=0.4877 loss_bbox=0.3260 (data: 0.021s/batch, step: 0.519s/batch, lr: 7.4e-05)
+epoch 16, batch 200/573: loss=0.8133 loss_cls=0.4869 loss_bbox=0.3265 (data: 0.010s/batch, step: 0.521s/batch, lr: 7.3e-05)
+epoch 16, batch 300/573: loss=0.8108 loss_cls=0.4847 loss_bbox=0.3260 (data: 0.010s/batch, step: 0.522s/batch, lr: 7.2e-05)
+epoch 16, batch 400/573: loss=0.8091 loss_cls=0.4829 loss_bbox=0.3262 (data: 0.010s/batch, step: 0.522s/batch, lr: 7.0e-05)
+epoch 16, batch 500/573: loss=0.8080 loss_cls=0.4816 loss_bbox=0.3264 (data: 0.010s/batch, step: 0.522s/batch, lr: 6.9e-05)
+epoch 17, batch 100/573: loss=0.8050 loss_cls=0.4795 loss_bbox=0.3255 (data: 0.021s/batch, step: 0.521s/batch, lr: 6.7e-05)
+epoch 17, batch 200/573: loss=0.8032 loss_cls=0.4784 loss_bbox=0.3248 (data: 0.010s/batch, step: 0.522s/batch, lr: 6.6e-05)
+epoch 17, batch 300/573: loss=0.8031 loss_cls=0.4785 loss_bbox=0.3246 (data: 0.010s/batch, step: 0.521s/batch, lr: 6.5e-05)
+epoch 17, batch 400/573: loss=0.8003 loss_cls=0.4769 loss_bbox=0.3234 (data: 0.010s/batch, step: 0.522s/batch, lr: 6.3e-05)
+epoch 17, batch 500/573: loss=0.7964 loss_cls=0.4750 loss_bbox=0.3214 (data: 0.010s/batch, step: 0.522s/batch, lr: 6.2e-05)
+VALIDATING ...
+overall_map        | 0.2015
+overall_thr        | 0.4
+pos_overall_map    | 0.39971
+pos_overall_thr    | 0.2
+overall_map_40     | 0.30473
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.63628
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.87901
+overall_auc        | 0.87901
+Validation took 0:03:05.240675 !
+epoch 18, batch 100/573: loss=0.7944 loss_cls=0.4730 loss_bbox=0.3213 (data: 0.022s/batch, step: 0.519s/batch, lr: 6.0e-05)
+epoch 18, batch 200/573: loss=0.7909 loss_cls=0.4713 loss_bbox=0.3196 (data: 0.010s/batch, step: 0.521s/batch, lr: 5.9e-05)
+epoch 18, batch 300/573: loss=0.7931 loss_cls=0.4733 loss_bbox=0.3198 (data: 0.010s/batch, step: 0.522s/batch, lr: 5.7e-05)
+epoch 18, batch 400/573: loss=0.7899 loss_cls=0.4722 loss_bbox=0.3177 (data: 0.010s/batch, step: 0.522s/batch, lr: 5.6e-05)
+epoch 18, batch 500/573: loss=0.7905 loss_cls=0.4728 loss_bbox=0.3178 (data: 0.010s/batch, step: 0.522s/batch, lr: 5.5e-05)
+epoch 19, batch 100/573: loss=0.7891 loss_cls=0.4712 loss_bbox=0.3179 (data: 0.021s/batch, step: 0.522s/batch, lr: 5.2e-05)
+epoch 19, batch 200/573: loss=0.7881 loss_cls=0.4709 loss_bbox=0.3171 (data: 0.010s/batch, step: 0.522s/batch, lr: 5.1e-05)
+epoch 19, batch 300/573: loss=0.7900 loss_cls=0.4717 loss_bbox=0.3183 (data: 0.010s/batch, step: 0.521s/batch, lr: 5.0e-05)
+epoch 19, batch 400/573: loss=0.7876 loss_cls=0.4696 loss_bbox=0.3179 (data: 0.010s/batch, step: 0.522s/batch, lr: 4.9e-05)
+epoch 19, batch 500/573: loss=0.7875 loss_cls=0.4703 loss_bbox=0.3172 (data: 0.010s/batch, step: 0.522s/batch, lr: 4.7e-05)
+VALIDATING ...
+overall_map        | 0.22944
+overall_thr        | 0.35
+pos_overall_map    | 0.39931
+pos_overall_thr    | 0.2
+overall_map_40     | 0.34902
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.63124
+pos_overall_thr_40 | 0.2
+class1_auc         | 0.88651
+overall_auc        | 0.88651
+Validation took 0:02:59.477861 !
+epoch 20, batch 100/573: loss=0.7849 loss_cls=0.4685 loss_bbox=0.3164 (data: 0.024s/batch, step: 0.518s/batch, lr: 4.5e-05)
+epoch 20, batch 200/573: loss=0.7824 loss_cls=0.4676 loss_bbox=0.3148 (data: 0.010s/batch, step: 0.521s/batch, lr: 4.4e-05)
+epoch 20, batch 300/573: loss=0.7810 loss_cls=0.4657 loss_bbox=0.3153 (data: 0.010s/batch, step: 0.522s/batch, lr: 4.2e-05)
+epoch 20, batch 400/573: loss=0.7804 loss_cls=0.4653 loss_bbox=0.3151 (data: 0.010s/batch, step: 0.522s/batch, lr: 4.1e-05)
+epoch 20, batch 500/573: loss=0.7787 loss_cls=0.4643 loss_bbox=0.3144 (data: 0.010s/batch, step: 0.522s/batch, lr: 4.0e-05)
+epoch 21, batch 100/573: loss=0.7733 loss_cls=0.4610 loss_bbox=0.3123 (data: 0.021s/batch, step: 0.522s/batch, lr: 3.8e-05)
+epoch 21, batch 200/573: loss=0.7718 loss_cls=0.4610 loss_bbox=0.3107 (data: 0.010s/batch, step: 0.521s/batch, lr: 3.6e-05)
+epoch 21, batch 300/573: loss=0.7676 loss_cls=0.4586 loss_bbox=0.3089 (data: 0.010s/batch, step: 0.522s/batch, lr: 3.5e-05)
+epoch 21, batch 400/573: loss=0.7672 loss_cls=0.4578 loss_bbox=0.3095 (data: 0.010s/batch, step: 0.522s/batch, lr: 3.4e-05)
+epoch 21, batch 500/573: loss=0.7666 loss_cls=0.4579 loss_bbox=0.3088 (data: 0.010s/batch, step: 0.522s/batch, lr: 3.3e-05)
+VALIDATING ...
+overall_map        | 0.19883
+overall_thr        | 0.35
+pos_overall_map    | 0.40634
+pos_overall_thr    | 0.25
+overall_map_40     | 0.30785
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.6591
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.86375
+overall_auc        | 0.86375
+Validation took 0:02:59.363731 !
+epoch 22, batch 100/573: loss=0.7658 loss_cls=0.4571 loss_bbox=0.3087 (data: 0.022s/batch, step: 0.519s/batch, lr: 3.1e-05)
+epoch 22, batch 200/573: loss=0.7648 loss_cls=0.4570 loss_bbox=0.3078 (data: 0.010s/batch, step: 0.521s/batch, lr: 2.9e-05)
+epoch 22, batch 300/573: loss=0.7615 loss_cls=0.4557 loss_bbox=0.3058 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.8e-05)
+epoch 22, batch 400/573: loss=0.7619 loss_cls=0.4554 loss_bbox=0.3065 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.7e-05)
+epoch 22, batch 500/573: loss=0.7642 loss_cls=0.4568 loss_bbox=0.3074 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.6e-05)
+epoch 23, batch 100/573: loss=0.7601 loss_cls=0.4533 loss_bbox=0.3068 (data: 0.022s/batch, step: 0.522s/batch, lr: 2.4e-05)
+epoch 23, batch 200/573: loss=0.7621 loss_cls=0.4547 loss_bbox=0.3073 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.3e-05)
+epoch 23, batch 300/573: loss=0.7593 loss_cls=0.4535 loss_bbox=0.3058 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.2e-05)
+epoch 23, batch 400/573: loss=0.7578 loss_cls=0.4529 loss_bbox=0.3048 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.1e-05)
+epoch 23, batch 500/573: loss=0.7565 loss_cls=0.4523 loss_bbox=0.3041 (data: 0.010s/batch, step: 0.522s/batch, lr: 2.0e-05)
+VALIDATING ...
+overall_map        | 0.21163
+overall_thr        | 0.4
+pos_overall_map    | 0.42687
+pos_overall_thr    | 0.25
+overall_map_40     | 0.31459
+overall_thr_40     | 0.4
+pos_overall_map_40 | 0.66176
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.8728
+overall_auc        | 0.8728
+Validation took 0:03:01.696789 !
+epoch 24, batch 100/573: loss=0.7539 loss_cls=0.4509 loss_bbox=0.3030 (data: 0.022s/batch, step: 0.519s/batch, lr: 1.8e-05)
+epoch 24, batch 200/573: loss=0.7539 loss_cls=0.4509 loss_bbox=0.3030 (data: 0.010s/batch, step: 0.521s/batch, lr: 1.7e-05)
+epoch 24, batch 300/573: loss=0.7512 loss_cls=0.4491 loss_bbox=0.3021 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.6e-05)
+epoch 24, batch 400/573: loss=0.7482 loss_cls=0.4476 loss_bbox=0.3006 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.5e-05)
+epoch 24, batch 500/573: loss=0.7483 loss_cls=0.4478 loss_bbox=0.3006 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.4e-05)
+epoch 25, batch 100/573: loss=0.7476 loss_cls=0.4465 loss_bbox=0.3012 (data: 0.023s/batch, step: 0.522s/batch, lr: 1.2e-05)
+epoch 25, batch 200/573: loss=0.7462 loss_cls=0.4458 loss_bbox=0.3004 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.2e-05)
+epoch 25, batch 300/573: loss=0.7477 loss_cls=0.4457 loss_bbox=0.3020 (data: 0.010s/batch, step: 0.521s/batch, lr: 1.1e-05)
+epoch 25, batch 400/573: loss=0.7482 loss_cls=0.4460 loss_bbox=0.3021 (data: 0.010s/batch, step: 0.522s/batch, lr: 1.0e-05)
+epoch 25, batch 500/573: loss=0.7491 loss_cls=0.4459 loss_bbox=0.3032 (data: 0.010s/batch, step: 0.522s/batch, lr: 9.2e-06)
+VALIDATING ...
+overall_map        | 0.21262
+overall_thr        | 0.4
+pos_overall_map    | 0.42687
+pos_overall_thr    | 0.25
+overall_map_40     | 0.32555
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.67263
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.87986
+overall_auc        | 0.87986
+Validation took 0:03:01.663350 !
+epoch 26, batch 100/573: loss=0.7479 loss_cls=0.4457 loss_bbox=0.3022 (data: 0.022s/batch, step: 0.519s/batch, lr: 8.0e-06)
+epoch 26, batch 200/573: loss=0.7484 loss_cls=0.4462 loss_bbox=0.3022 (data: 0.010s/batch, step: 0.521s/batch, lr: 7.3e-06)
+epoch 26, batch 300/573: loss=0.7489 loss_cls=0.4468 loss_bbox=0.3021 (data: 0.010s/batch, step: 0.522s/batch, lr: 6.6e-06)
+epoch 26, batch 400/573: loss=0.7465 loss_cls=0.4453 loss_bbox=0.3011 (data: 0.010s/batch, step: 0.522s/batch, lr: 6.0e-06)
+epoch 26, batch 500/573: loss=0.7457 loss_cls=0.4455 loss_bbox=0.3002 (data: 0.010s/batch, step: 0.522s/batch, lr: 5.4e-06)
+epoch 27, batch 100/573: loss=0.7457 loss_cls=0.4449 loss_bbox=0.3008 (data: 0.021s/batch, step: 0.522s/batch, lr: 4.4e-06)
+epoch 27, batch 200/573: loss=0.7455 loss_cls=0.4447 loss_bbox=0.3008 (data: 0.011s/batch, step: 0.522s/batch, lr: 3.9e-06)
+epoch 27, batch 300/573: loss=0.7452 loss_cls=0.4446 loss_bbox=0.3006 (data: 0.011s/batch, step: 0.522s/batch, lr: 3.4e-06)
+epoch 27, batch 400/573: loss=0.7432 loss_cls=0.4435 loss_bbox=0.2997 (data: 0.011s/batch, step: 0.522s/batch, lr: 2.9e-06)
+epoch 27, batch 500/573: loss=0.7417 loss_cls=0.4424 loss_bbox=0.2993 (data: 0.011s/batch, step: 0.520s/batch, lr: 2.5e-06)
+VALIDATING ...
+overall_map        | 0.2156
+overall_thr        | 0.4
+pos_overall_map    | 0.43326
+pos_overall_thr    | 0.25
+overall_map_40     | 0.32511
+overall_thr_40     | 0.4
+pos_overall_map_40 | 0.67207
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.87788
+overall_auc        | 0.87788
+Validation took 0:03:02.234068 !
+epoch 28, batch 100/573: loss=0.7397 loss_cls=0.4413 loss_bbox=0.2983 (data: 0.023s/batch, step: 0.517s/batch, lr: 1.8e-06)
+epoch 28, batch 200/573: loss=0.7388 loss_cls=0.4404 loss_bbox=0.2983 (data: 0.010s/batch, step: 0.519s/batch, lr: 1.5e-06)
+epoch 28, batch 300/573: loss=0.7427 loss_cls=0.4416 loss_bbox=0.3011 (data: 0.010s/batch, step: 0.520s/batch, lr: 1.2e-06)
+epoch 28, batch 400/573: loss=0.7420 loss_cls=0.4411 loss_bbox=0.3008 (data: 0.010s/batch, step: 0.520s/batch, lr: 9.4e-07)
+epoch 28, batch 500/573: loss=0.7426 loss_cls=0.4419 loss_bbox=0.3007 (data: 0.010s/batch, step: 0.520s/batch, lr: 7.1e-07)
+epoch 29, batch 100/573: loss=0.7400 loss_cls=0.4404 loss_bbox=0.2996 (data: 0.021s/batch, step: 0.521s/batch, lr: 3.8e-07)
+epoch 29, batch 200/573: loss=0.7386 loss_cls=0.4395 loss_bbox=0.2991 (data: 0.010s/batch, step: 0.521s/batch, lr: 2.4e-07)
+epoch 29, batch 300/573: loss=0.7422 loss_cls=0.4424 loss_bbox=0.2998 (data: 0.010s/batch, step: 0.521s/batch, lr: 1.3e-07)
+epoch 29, batch 400/573: loss=0.7432 loss_cls=0.4431 loss_bbox=0.3002 (data: 0.010s/batch, step: 0.520s/batch, lr: 5.0e-08)
+epoch 29, batch 500/573: loss=0.7423 loss_cls=0.4423 loss_bbox=0.3000 (data: 0.010s/batch, step: 0.521s/batch, lr: 8.8e-09)
+VALIDATING ...
+overall_map        | 0.21729
+overall_thr        | 0.35
+pos_overall_map    | 0.43641
+pos_overall_thr    | 0.25
+overall_map_40     | 0.32687
+overall_thr_40     | 0.35
+pos_overall_map_40 | 0.66929
+pos_overall_thr_40 | 0.25
+class1_auc         | 0.88242
+overall_auc        | 0.88242
+Validation took 0:02:56.748643 !
+TRAINING : END
+Training took 3:21:41.220050
+

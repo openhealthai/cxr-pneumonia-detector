@@ -1,0 +1,100 @@
+# NOTE: it is best to use absolute paths
+# If you must use relative paths, they are relative
+# to run.py, not the config file
+
+seed: 88 
+
+dataset:
+  name: 'XrayDataset'
+  positives_only: True # filters positives from validation
+  params:
+    positives_only: True # does not filter positives from validation
+  inner_fold: 0
+  outer_fold: 0
+  data_dir: '../data/dicoms/train/'
+  pickled: '../data/train_bbox_annotations_with_splits.pkl'
+  sampler: 'GroupSampler'
+
+
+transform:
+  concat: False
+  augment: 
+    train: 'train_pipeline'
+    infer: 'test_pipeline'
+  num_workers: 0
+  resize_to: [384, 384]
+  preprocess:
+    augmentations: 'vanilla_transforms'
+    size_divisor: 128 # required for NAS-FPN/EfficientNet backbones
+    image_range: [0, 255]
+    input_range: [0, 1]
+    mean: [0.485, 0.456, 0.406]
+    sdev: [0.229, 0.224, 0.225]
+
+
+model:
+  config: 'GC_CascadeRCNN50' 
+  backbone:
+    norm_eval: False
+  neck:
+    type: NASFPN
+    stack_times: 3
+  bbox_head:
+    num_classes: 2   # remember to include background class
+    loss_cls:
+      type: 'FocalLoss'
+    loss_bbox:
+      type: 'SmoothL1Loss'
+  train_cfg:
+  test_cfg:
+    nms:
+      iou_thr: 0.3
+
+find_lr: # this is its own mode 
+  params:
+    start_lr: 1.0e-7
+    end_lr: 1.0e-2
+    num_iter: 500
+    save_fig: True
+
+
+train:
+  outer_only: False
+  batch_size: 8
+  trainer: 'Trainer'
+  params:
+    gradient_accumulation: 1
+    num_epochs: 20
+    steps_per_epoch: 0
+    validate_interval: 2
+    verbosity: 100
+    grad_clip: {'max_norm': 35, 'norm_type': 2}
+
+
+evaluation:
+  evaluator: 'Evaluator'
+  params:
+    save_checkpoint_dir: '../checkpoints/experiment002/'
+    save_best: True
+    prefix: 'cas50'
+    metrics: ['overall_map', 'overall_map_40']
+    valid_metric: 'overall_map'
+    mode: 'max'
+    improve_thresh: 0.0001
+
+
+optimizer:
+  name: 'AdamW'
+  params:
+    lr: 4.0e-6
+    weight_decay: 1.0e-4
+
+
+scheduler:
+  name: 'CustomOneCycleLR'
+  params:
+    max_lr:   1.0e-4
+    final_lr: 1.0e-12
+    pct_start: 0.3
+    cycle_momentum: False
+
