@@ -163,9 +163,9 @@ class MDAIModel:
                         elem = output[i]
                         data = {
                             "x": int(elem[0]),
-                            "y": int(elem[2]),
-                            "width": int(elem[1]) - int(elem[0]),
-                            "height": int(elem[3]) - int(elem[4]),
+                            "y": int(elem[1]),
+                            "width": int(elem[2]) - int(elem[0]),
+                            "height": int(elem[3]) - int(elem[1]),
                         }
                         result = {
                             "type": "ANNOTATION",
